@@ -1,18 +1,18 @@
 body {
-  background-color:rgb(231, 231, 231);
+  background-color:white;
   text-align: center;
   margin: 0;
   padding: 0;
 
 }
 .containerMain {
-  background-color: rgb(231, 231, 231);
+  background-color: white;
   display: grid;
   margin: -1px 2px -32px 0px;
   font-family: "Baloo 2", cursive;
 }
 .navBar {
-  background-color: rgb(231, 231, 231);
+  background-color: white;
   text-align: center;
   padding-bottom: 10px;
   margin-top: 8px;
@@ -39,7 +39,7 @@ a {
 .stuff {
   color: rgb(0, 0, 0);
   text-align: center;
-  background-color: rgb(231, 231, 231);
+  background-color: white;
 }
 
 .stuff2 {
@@ -73,36 +73,36 @@ svg {
   padding: 10px 20px;
 }
 .industrial {
-  background-color: rgb(231, 231, 231);
+  background-color: white;
   color: rgb(0, 0, 0);
 }
 .realEstate {
-  background-color: rgb(231, 231, 231);
+  background-color: white;
   color: rgb(0, 0, 0);
 }
 .museum {
-  background-color: rgb(231, 231, 231);
+  background-color: white;
   color: black;
 }
 .gastronomy {
-  background-color:rgb(231, 231, 231);
+  background-color:white;
   color: black;
 }
 
 
 @media (min-width: 0px) and (max-width: 800px) {
   .inmid {
-    background-color:rgb(231, 231, 231);
+    background-color:white;
   }
   .industrial {
-   background-color: rgb(231, 231, 231);
-   color: rgb(231, 231, 231);
+   background-color: white;
+   color: white;
   }
   .industrial h5 {
     color: black;
   }
   .industrial a {
-    color: rgb(231, 231, 231);
+    color: white;
   };
   .industrial:hover {
     animation-name: ravis3;
@@ -111,14 +111,14 @@ svg {
     animation-fill-mode: forwards;
   }
   .realEstate {
-   background-color: rgb(231, 231, 231);
-   color: rgb(231, 231, 231);
+   background-color: white;
+   color: white;
   }
   .realEstate h5 {
     color: black;
   }
   .realEstate a {
-    color: rgb(231, 231, 231);
+    color: white;
   };
   .realEstate:hover {
     animation-name: ravis3;
@@ -127,14 +127,14 @@ svg {
     animation-fill-mode: forwards;
   }
   .museum {
-   background-color: rgb(231, 231, 231);
-   color: rgb(231, 231, 231);
+   background-color: white;
+   color: white;
   }
   .museum h5 {
     color: black;
   }
   .museum a {
-    color: rgb(231, 231, 231);
+    color: white;
   };
   .museum:hover {
     animation-name: ravis3;
@@ -143,14 +143,14 @@ svg {
     animation-fill-mode: forwards;
   }
   .gastronomy {
-   background-color: rgb(231, 231, 231);
-   color: rgb(231, 231, 231);
+   background-color: white;
+   color: white;
   }
   .gastronomy h5 {
     color: black;
   }
   .gastronomy a {
-    color: rgb(231, 231, 231);
+    color: white;
   };
   .gastronomy:hover {
     animation-name: ravis3;
@@ -170,7 +170,7 @@ svg {
 @keyframes ravis3 {
   from {
     
-    background-color: rgb(231, 231, 231);
+    background-color: white;
   }
   to{
     border-radius: 100px;
@@ -187,7 +187,7 @@ svg {
 @keyframes ravi1 {
   from {
     
-    background-color: rgb(231, 231, 231);
+    background-color: white;
   }
   to{
     border-radius: 100px;
@@ -204,7 +204,7 @@ svg {
 @keyframes ravis {
   from {
     
-    background-color: rgb(231, 231, 231);
+    background-color: white;
   }
   to{
     border-radius: 100px;
@@ -224,7 +224,7 @@ svg {
 @keyframes ravi {
   from {
     
-    background-color: rgb(231, 231, 231);
+    background-color: white;
   }
   to{
     border-radius: 100px;
@@ -241,7 +241,7 @@ svg {
   display: flex;
   font-size: 3vw;
   font-family: "Baloo 2", cursive;
-  background-color: rgb(231, 231, 231);
+  background-color: white;
   margin: auto;
   text-align: center;
   /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
@@ -256,9 +256,9 @@ svg {
 
 
 .infoot {
-  background-color: rgb(231, 231, 231);
+  background-color: white;
   width: 100%;
-  border: solid rgb(231, 231, 231) 4px;
+  border: solid white 4px;
   margin: auto;
   border-radius: 40px;
 }
@@ -266,7 +266,7 @@ svg {
   margin: 0% 35% 0% 0%;
 }
 .cons {
-  background-color: rgb(231, 231, 231);
+  background-color: white;
 }
 iframe {
   width: 100%;
@@ -393,7 +393,7 @@ input[type="submit"]:hover {
 }
 .container3 {
   border-radius: 5px;
-  background-color: rgb(231, 231, 231);
+  background-color: white;
   padding: 20px;
 }
 
