@@ -92,14 +92,18 @@ svg {
 
 @media (min-width: 0px) and (max-width: 800px) {
   .inmid {
-    background-color: black;
+    background-color:rgb(231, 231, 231);
   }
   .industrial {
-   background-color: #000000;
+   background-color: rgb(231, 231, 231);
+   color: rgb(231, 231, 231);
   }
   .industrial h5 {
-    color: white;
+    color: black;
   }
+  .industrial a {
+    color: rgb(231, 231, 231);
+  };
   .industrial:hover {
     animation-name: ravis3;
     animation-duration: 1s;
@@ -107,11 +111,15 @@ svg {
     animation-fill-mode: forwards;
   }
   .realEstate {
-   background-color: #000000;
+   background-color: rgb(231, 231, 231);
+   color: rgb(231, 231, 231);
   }
   .realEstate h5 {
-    color: white;
+    color: black;
   }
+  .realEstate a {
+    color: rgb(231, 231, 231);
+  };
   .realEstate:hover {
     animation-name: ravis3;
     animation-duration: 1s;
@@ -119,11 +127,15 @@ svg {
     animation-fill-mode: forwards;
   }
   .museum {
-   background-color: #000000;
+   background-color: rgb(231, 231, 231);
+   color: rgb(231, 231, 231);
   }
   .museum h5 {
-    color: white;
+    color: black;
   }
+  .museum a {
+    color: rgb(231, 231, 231);
+  };
   .museum:hover {
     animation-name: ravis3;
     animation-duration: 1s;
@@ -131,11 +143,15 @@ svg {
     animation-fill-mode: forwards;
   }
   .gastronomy {
-   background-color: #000000;
+   background-color: rgb(231, 231, 231);
+   color: rgb(231, 231, 231);
   }
   .gastronomy h5 {
-    color: white;
+    color: black;
   }
+  .gastronomy a {
+    color: rgb(231, 231, 231);
+  };
   .gastronomy:hover {
     animation-name: ravis3;
     animation-duration: 1s;
@@ -144,6 +160,7 @@ svg {
   }
   
 }
+
 .industrial:hover{
   animation-name: ravis3;
   animation-duration: 1s;
@@ -198,7 +215,7 @@ svg {
 .infoot h2:current {
   background-color: red;
 }
-.gastronomy:focus {
+.gastronomy:hover {
   animation-name: ravi;
   animation-duration: 1s;
   animation-iteration-count: 1;
