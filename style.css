@@ -1,24 +1,24 @@
 body {
-  background-color: #ccc;
+  background-color:rgb(231, 231, 231);
   text-align: center;
   margin: 0;
   padding: 0;
 
 }
 .containerMain {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(231, 231, 231);
   display: grid;
   margin: -1px 2px -32px 0px;
   font-family: "Baloo 2", cursive;
 }
 .navBar {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(231, 231, 231);
   text-align: center;
   padding-bottom: 10px;
   margin-top: 8px;
 }
 .navBar a:hover {
-  color: #3dff44;
+  color: #00c206;
 }
 span {
   margin: 0px 40px 0px 20px;
@@ -28,7 +28,7 @@ span {
 }
 a {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 .jump {
   background-color: #000000;
@@ -39,7 +39,7 @@ a {
 .stuff {
   color: rgb(0, 0, 0);
   text-align: center;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(231, 231, 231);
 }
 
 .stuff2 {
@@ -52,12 +52,12 @@ a {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   font-size: 3vw;
-  margin-top: -9px;
+  margin-top: 10px;
   /* grid-template-columns: auto; */
   /* grid-gap: 4px; */
 }
 .inmid a {
-  color: #e0e0e0;
+  color: #000000;
 }
 svg {
   width: 8vw;
@@ -73,21 +73,91 @@ svg {
   padding: 10px 20px;
 }
 .industrial {
-  background-color: rgb(214, 34, 34);
+  background-color: rgb(231, 231, 231);
   color: rgb(0, 0, 0);
 }
 .realEstate {
-  background-color: rgb(61, 138, 46);
+  background-color: rgb(231, 231, 231);
   color: rgb(0, 0, 0);
 }
 .museum {
-  background-color: rgb(61, 59, 148);
+  background-color: rgb(231, 231, 231);
   color: black;
 }
 .gastronomy {
-  background-color: rgb(245, 223, 29);
+  background-color:rgb(231, 231, 231);
   color: black;
 }
+
+.industrial:hover{
+  animation-name: ravis3;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes ravis3 {
+  from {
+    
+    background-color: rgb(231, 231, 231);
+  }
+  to{
+    border-radius: 100px;
+    background-color: rgb(255, 0, 0);
+  }
+  
+}
+.realEstate:hover {
+  animation-name: ravi1;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes ravi1 {
+  from {
+    
+    background-color: rgb(231, 231, 231);
+  }
+  to{
+    border-radius: 100px;
+    background-color: rgb(9, 255, 0);
+  }
+  
+}
+.museum:hover {
+  animation-name: ravis;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes ravis {
+  from {
+    
+    background-color: rgb(231, 231, 231);
+  }
+  to{
+    border-radius: 100px;
+    background-color: rgb(0, 81, 255);
+  }
+  
+}
+.gastronomy:hover {
+  animation-name: ravi;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes ravi {
+  from {
+    
+    background-color: rgb(231, 231, 231);
+  }
+  to{
+    border-radius: 100px;
+    background-color: rgb(255, 251, 0);
+  }
+  
+}
+
 
 .footer {
   max-width: 100%;
