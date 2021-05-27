@@ -1,295 +1,286 @@
 body {
   background-color: #ccc;
-	text-align: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+
 }
 .containerMain {
-    background-color: rgb(255, 255, 255);
-    display: grid;
-   margin: -8px -8px -8px -8px;
-   font-family: 'Baloo 2', cursive;
-
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  margin: -1px 2px -32px 0px;
+  font-family: "Baloo 2", cursive;
 }
 .navBar {
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-    padding-bottom: 10px;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  padding-bottom: 10px;
+  margin-top: 8px;
 }
 .navBar a:hover {
-  color: #00c006;
-  
+  color: #3dff44;
 }
 span {
-
-    margin: 0px 40px 0px 20px;
+  margin: 0px 40px 0px 20px;
 }
 .row {
   margin-top: -10px;
 }
 a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
-.jump{
-background-color: #000000;
+.jump {
+  background-color: #000000;
 }
 .img {
-   margin: 4px 10px -10px 0px;
+  margin: 4px 10px -10px 0px;
 }
 .stuff {
-    color: rgb(0, 0, 0);
-    text-align: center;
+  color: rgb(0, 0, 0);
+  text-align: center;
   background-color: rgb(255, 255, 255);
 }
 
-.stuff2{
-    background-color: brown;
+.stuff2 {
+  background-color: brown;
+}
+.stuff h3 {
+  margin: 0px 0px -5px 0px;
 }
 .inmid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    font-size: 3vw;
-    margin-top: -12px;
-    /* grid-template-columns: auto; */
-    /* grid-gap: 4px; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  font-size: 3vw;
+  margin-top: -9px;
+  /* grid-template-columns: auto; */
+  /* grid-gap: 4px; */
 }
 .inmid a {
-  color: #00c006;
+  color: #e0e0e0;
 }
 svg {
-  width: 8vw; height: 8vh;
+  width: 8vw;
+  height: 8vh;
 }
 @media (min-width: 1200px) {
-  .inmid{
-     font-size: 20px;
+  .inmid {
+    font-size: 20px;
   }
 }
 .inmids {
- text-align: center;
- padding: 10px 20px;
-    
+  text-align: center;
+  padding: 10px 20px;
 }
 .industrial {
-    background-color: black;
-    color: white;
-
+  background-color: rgb(214, 34, 34);
+  color: rgb(0, 0, 0);
 }
 .realEstate {
-    background-color: rgb(34, 34, 34);
-    color: white;
-    
+  background-color: rgb(61, 138, 46);
+  color: rgb(0, 0, 0);
 }
 .museum {
-    background-color: white;
-    color: black;
-    
+  background-color: rgb(61, 59, 148);
+  color: black;
 }
 .gastronomy {
-    background-color: rgb(146, 146, 146);
-    color: black;
+  background-color: rgb(245, 223, 29);
+  color: black;
 }
 
 .footer {
-  max-width:100%;
-max-height:100%;
-  /* margin: 0px 0px 50px 0px;
-  padding: 30px 0px 250px 0px; */
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  display: flex;
   font-size: 3vw;
-  font-family: 'Baloo 2', cursive;
-  /* height: 400px; */
-  background-image: url('wood.webp');
+  font-family: "Baloo 2", cursive;
+  background-color: rgb(231, 231, 231);
+  margin: auto;
   text-align: center;
-  /* display: grid; */
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
   color: rgb(0, 0, 0);
 }
 @media screen and (min-width: 1200px) {
-  .footer{
-     font-size: 20px;
-    }
+  .footer {
+    font-size: 20px;
   }
-  .infoot {
-    background-color: rgb(231, 231, 231);
-    width: 50%;
-    margin:auto;
-    border: solid rgb(209, 209, 209) 4px;
-    border-radius: 20px;
-    
-  }
-  
-  .formy {
-    
- margin:10px 10px 0px 0px;
- 
- background-color: rgb(231, 231, 231);
- 
 }
 
+
+
+.infoot {
+  background-color: rgb(231, 231, 231);
+  width: 100%;
+  border: solid rgb(231, 231, 231) 4px;
+  margin: auto;
+  border-radius: 40px;
+}
+.button {
+  margin: 0% 35% 0% 0%;
+}
+.cons {
+  background-color: rgb(231, 231, 231);
+}
 iframe {
   width: 100%;
+  height: 93%;
+ 
 }
-
-
-
-
-
-
 
 /* * {
     box-sizing: border-box;
   }
   
   /* Position the image container (needed to position the left and right arrows) */
-  .mySlides {
-width: 100%;
-height: 80%;
-align-items: center;
-  }
-   
-  /* Hide the images by default */
-  .mySlides {
-    display: none;
-  }
-  
-  /* Add a pointer when hovering over the thumbnail images */
-  .cursor {
-    cursor: pointer;
-  }
-  
-  /* Next & previous buttons */
-  .prev,
-  .next {
-    cursor: pointer;
-    /* position: absolute; */
-    top: 40%;
-    width: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover,
-  .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    /* position: absolute; */
-    top: 0;
-  }
-  
-  /* Container for image text */
-  .caption-container {
-    text-align: center;
-    background-color: #222;
-    padding: 2px 16px;
-    color: white;
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Six columns side by side */
-  .column {
-    float: left;
-    width: 16.66%;
-  }
-  
-  /* Add a transparency effect for thumnbail images */
-  .demo {
-    opacity: 0.6;
-  }
-  
-  .active,
-  .demo:hover {
-    opacity: 1;
-  }
+.mySlides {
+  width: 100%;
+  height: 80%;
+  align-items: center;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  /* position: absolute; */
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  /* position: absolute; */
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+.container3 {
+  border-radius: 5px;
+  background-color: rgb(231, 231, 231);
+  padding: 20px;
+}
 
 
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
 
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
 
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
-
-
-
-
-  input[type=text], select, textarea {
-    width: 100%;  
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25,
+  .col-75,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
   }
-  
-  label {
-    padding: 12px 12px 12px 0;
-    display: inline-block;
-  }
-  
-  input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    float: right;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
-  .container3 {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
-  
-  .col-25 {
-    float: left;
-    width: 25%;
-    margin-top: 6px;
-  }
-  
-  .col-75 {
-    float: left;
-    width: 75%;
-    margin-top: 6px;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .col-25, .col-75, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-  }
+}
 
 form {
   margin-right: 20%;
@@ -299,29 +290,6 @@ form {
   margin: -10px 0px 0px 0px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .fa {
   padding: 10px;
   font-size: 30px;
@@ -329,21 +297,20 @@ form {
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
-  border-radius:10px;
-  
+  border-radius: 10px;
 }
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .fa-facebook {
-  background: #3B5998;
+  background: #3b5998;
   color: white;
 }
 
 .fa-twitter {
-  background: #55ACEE;
+  background: #55acee;
   color: white;
 }
 
