@@ -94,7 +94,9 @@ svg {
 
 
 @media (min-width: 0px) and (max-width: 800px) {
-  
+  .navBar {
+    display: none;
+  }
   .inmid {
     background-color:white;
   }
@@ -560,5 +562,56 @@ form {
 
 .fa-rss {
   background: #ff6600;
+  color: white;
+}
+
+
+
+
+/* FOR MOBILE MENU */
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+  font-family: "Baloo 2", cursive;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.icon {
+  float: right;
+}
+.topnav .img {
+  margin: 20px 150px 0px 0px;
+  width: 50px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #04AA6D;
   color: white;
 }
