@@ -56,9 +56,7 @@ a {
   /* grid-template-columns: auto; */
   /* grid-gap: 4px; */
 }
-.inmid a {
-  color: #000000;
-}
+
 svg {
   width: 8vw;
   height: 8vh;
@@ -110,58 +108,57 @@ svg {
     opacity: 0.5;
     border-radius: 50%;
   }
- 
+ .inmids a {
+  color: #ffffff;
+ }
+ .inmids h5 {
+   color: black;
+ }
   .inmids:hover {
     opacity: 1;
+    color: #3b3b3b;
+  }
+  .inmids h5:hover {
+    color: white;
   }
   .industrial {
    background-color: white;
    color: white;
   }
-  .industrial h5 {
-    color: black;
-  }
-  .industrial a {
-    color: white;
-  };
+ 
+
   .industrial:hover {
     animation-name: ravis3;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
   }
   .inmids:hover{
-    box-shadow: 10px 10px 20px 1px rgb(0, 0, 0);
+    box-shadow: 0px 0px 20px 1px rgb(0, 0, 0);
+    
   }
   .realEstate {
    background-color: white;
    color: white;
+   
   }
-  .realEstate h5 {
-    color: black;
-  }
-  .realEstate a {
-    color: white;
-  };
+
   .realEstate:hover {
     animation-name: ravis3;
-    animation-duration: 1s;
+    animation-duration: 0.5;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
   }
   .museum {
    background-color: white;
    color: white;
+   box-shadow: 0px 0px 20px 1px rgb(0, 0, 0);
   }
-  .museum h5 {
-    color: black;
-  }
-  .museum a {
-    color: white;
-  };
+ 
+
   .museum:hover {
     animation-name: ravis3;
-    animation-duration: 1s;
+    animation-duration: 0.5;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
   }
@@ -169,15 +166,10 @@ svg {
    background-color: white;
    color: white;
   }
-  .gastronomy h5 {
-    color: black;
-  }
-  .gastronomy a {
-    color: white;
-  };
+
   .gastronomy:hover {
     animation-name: ravis3;
-    animation-duration: 1s;
+    animation-duration: 0.5;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
   }
@@ -186,7 +178,7 @@ svg {
 
 .industrial:hover{
   animation-name: ravis3;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -197,30 +189,35 @@ svg {
   }
   to{
     border-radius: 70px;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(175, 73, 73);
+    color: white;
+    box-shadow: 0px 0px 20px 1px rgb(0, 0, 0);
+
   }
   
 }
 .realEstate:hover {
   animation-name: ravi1;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 @keyframes ravi1 {
   from {
-    
-    background-color: white;
+    color: black;
   }
   to{
     border-radius: 70px;
-    background-color: rgb(9, 255, 0);
+    background-color: rgb(89, 156, 106);
+    color: white;
+    box-shadow: 0px 0px 20px 1px rgb(0, 0, 0);
+    
   }
   
 }
 .museum:hover {
   animation-name: ravis;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -231,8 +228,9 @@ svg {
   }
   to{
     border-radius: 70px;
-    background-color: rgb(0, 81, 255);
-    box-shadow:4px 4px 4px #000000;
+    background-color: rgb(64, 102, 185);
+    color: white;
+    box-shadow: 0px 0px 20px 1px rgb(0, 0, 0);
   }
   
 }
@@ -241,7 +239,7 @@ svg {
 }
 .gastronomy:hover {
   animation-name: ravi;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -252,7 +250,8 @@ svg {
   }
   to{
     border-radius: 70px;
-    background-color: rgb(189, 186, 0);
+    background-color: rgb(224, 222, 60);
+    box-shadow: 0px 0px 20px 1px rgb(0, 0, 0);
   }
   
 }
