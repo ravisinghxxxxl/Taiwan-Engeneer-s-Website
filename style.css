@@ -100,10 +100,11 @@ svg {
     display: none;
   }
   .inmid {
-    background-position: center;
-    background-image: url('3d2.jpg');
-    background-attachment: fixed;
-    border-image-width: auto;
+    background: url('3d2.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   .inmids {
     opacity: 0.5;
