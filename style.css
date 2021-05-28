@@ -103,6 +103,7 @@ svg {
     background-position: center;
     background-image: url('3d2.jpg');
     background-attachment: fixed;
+    border-image-width: auto;
   }
   .inmids {
     opacity: 0.5;
@@ -185,14 +186,13 @@ svg {
 @keyframes ravis3 {
   from {
     
-    background-color: white;
+    background-color: rgb(0, 0, 0);
   }
   to{
     border-radius: 70px;
     background-color: rgb(175, 73, 73);
     color: white;
-    box-shadow: 0px 0px 20px 1px rgb(0, 0, 0);
-
+    box-shadow: 0px 0px 50px 50px rgb(0, 0, 0);
   }
   
 }
@@ -205,12 +205,13 @@ svg {
 @keyframes ravi1 {
   from {
     color: black;
+    background-color: black;
   }
   to{
     border-radius: 70px;
     background-color: rgb(89, 156, 106);
     color: white;
-    box-shadow: 0px 0px 20px 1px rgb(0, 0, 0);
+    box-shadow: 0px 0px 50px 50px rgb(0, 0, 0);
     
   }
   
@@ -224,13 +225,13 @@ svg {
 @keyframes ravis {
   from {
     
-    background-color: white;
+    background-color: rgb(0, 0, 0);
   }
   to{
     border-radius: 70px;
     background-color: rgb(64, 102, 185);
     color: white;
-    box-shadow: 0px 0px 20px 1px rgb(0, 0, 0);
+    box-shadow: 0px 0px 50px 50px rgb(0, 0, 0);
   }
   
 }
@@ -246,12 +247,12 @@ svg {
 @keyframes ravi {
   from {
     
-    background-color: white;
+    background-color: rgb(0, 0, 0);
   }
   to{
     border-radius: 70px;
     background-color: rgb(224, 222, 60);
-    box-shadow: 0px 0px 20px 1px rgb(0, 0, 0);
+    box-shadow: 0px 0px 50px 50px rgb(0, 0, 0);
   }
   
 }
