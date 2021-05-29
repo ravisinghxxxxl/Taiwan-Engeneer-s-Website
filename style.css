@@ -3,13 +3,16 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
-
 }
 .containerMain {
   background-color: white;
   display: grid;
   margin: -1px 2px -32px 0px;
   font-family: "Baloo 2", cursive;
+  font-size: 3vh;
+}
+h3 {
+  color: green;
 }
 .navBar {
   background-color: white;
@@ -20,13 +23,15 @@ body {
 .navBar a:hover {
   color: #00c206;
 }
-span {
+.ourWorkContainer {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: white;
+}
+span{
   margin: 0px 40px 0px 20px;
 }
-.row {
-  margin-top: -10px;
-}
-a {
+a{
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
@@ -36,273 +41,86 @@ a {
 .img {
   margin: 4px 10px -10px 0px;
 }
-.stuff {
-  color: rgb(0, 0, 0);
-  text-align: center;
-  background-color: white;
+.row {
+  margin-top: -10px;
 }
 
-.stuff2 {
-  background-color: brown;
-}
-.stuff h3 {
-  margin: 0px 0px -5px 0px;
-}
+
+
 .inmid {
+  height: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  font-size: 3vw;
-  margin-top: 10px;
-  /* grid-template-columns: auto; */
-  /* grid-gap: 4px; */
+  margin-top: 10px;  
 }
-
 svg {
   width: 8vw;
   height: 8vh;
-}
-@media (min-width: 1200px) {
-  .inmid {
-    font-size: 20px;
-  }
+  color: green;
 }
 .inmids {
+  height: 30rem;
   text-align: center;
-  padding: 10px 20px;
-  margin: 2rem;
-  
+  padding: 10%;
+  margin: 5%;
+  border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
-
-.industrial {
-  background-color: white;
-  color: rgb(0, 0, 0);
+.inmids h5  , .inmids a{
+  color: green;
 }
-.realEstate {
-  background-color: white;
-  color: rgb(0, 0, 0);
-}
-.museum {
-  background-color: white;
-  color: black;
-}
-.gastronomy {
-  background-color:white;
-  color: black;
-}
-@media (min-width:800px) {
-  .topnav {
-    display: none;
-  }
-}
-
-@media (min-width: 0px) and (max-width: 800px) {
-  .navBar {
-    display: none;
-  }
-  .inmid {
-    background: url('3d2.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  .inmids {
-    opacity: 0.5;
-    border-radius: 50%;
-  }
- .inmids a {
-  color: #ffffff;
- }
- .inmids h5 {
-   color: black;
- }
-  .inmids:hover {
-    opacity: 1;
-    color: #3b3b3b;
-  }
-  .inmids h5:hover {
-    color: white;
-  }
-  .industrial {
-   background-color: white;
-   color: white;
-  }
- 
-
-  .industrial:hover {
-    animation-name: ravis3;
-    animation-duration: 0.5s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-  }
-  .inmids:hover{
-    box-shadow: 0px 0px 20px 1px rgb(0, 0, 0);
-    
-  }
-  .realEstate {
-   background-color: white;
-   color: white;
-   
-  }
-
-  .realEstate:hover {
-    animation-name: ravis3;
-    animation-duration: 0.5;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-  }
-  .museum {
-   background-color: white;
-   color: white;
-   box-shadow: 0px 0px 20px 1px rgb(0, 0, 0);
-  }
- 
-
-  .museum:hover {
-    animation-name: ravis3;
-    animation-duration: 0.5;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-  }
-  .gastronomy {
-   background-color: white;
-   color: white;
-  }
-
-  .gastronomy:hover {
-    animation-name: ravis3;
-    animation-duration: 0.5;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-  }
-  
-}
-
-.industrial:hover{
-  animation-name: ravis3;
-  animation-duration: 0.5s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
-@keyframes ravis3 {
-  from {
-    
-    background-color: rgb(0, 0, 0);
-  }
-  to{
-    border-radius: 70px;
-    background-color: rgb(175, 73, 73);
-    color: white;
-    box-shadow: 0px 0px 50px 50px rgb(0, 0, 0);
-  }
-  
-}
-.realEstate:hover {
-  animation-name: ravi1;
-  animation-duration: 0.5s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
-@keyframes ravi1 {
-  from {
-    color: black;
-    background-color: black;
-  }
-  to{
-    border-radius: 70px;
-    background-color: rgb(89, 156, 106);
-    color: white;
-    box-shadow: 0px 0px 50px 50px rgb(0, 0, 0);
-    
-  }
-  
-}
-.museum:hover {
-  animation-name: ravis;
-  animation-duration: 0.5s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
-@keyframes ravis {
-  from {
-    
-    background-color: rgb(0, 0, 0);
-  }
-  to{
-    border-radius: 70px;
-    background-color: rgb(64, 102, 185);
-    color: white;
-    box-shadow: 0px 0px 50px 50px rgb(0, 0, 0);
-  }
-  
-}
-.infoot h2:current {
-  background-color: red;
-}
-.gastronomy:hover {
-  animation-name: ravi;
-  animation-duration: 0.5s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
-@keyframes ravi {
-  from {
-    
-    background-color: rgb(0, 0, 0);
-  }
-  to{
-    border-radius: 70px;
-    background-color: rgb(224, 222, 60);
-    box-shadow: 0px 0px 50px 50px rgb(0, 0, 0);
-  }
-  
-}
-
 
 .footer {
   max-width: 100%;
   max-height: 100%;
   width: 100%;
   display: flex;
-  font-size: 3vw;
   font-family: "Baloo 2", cursive;
-  background-color: white;
-  margin: auto;
   text-align: center;
-  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
   color: rgb(0, 0, 0);
 }
-@media screen and (min-width: 1200px) {
-  .footer {
-    font-size: 20px;
-  }
-}
-
-
 
 .infoot {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   width: 100%;
-  border: solid white 4px;
+  border: solid rgb(255, 255, 255) 4px;
   margin: auto;
-  border-radius: 40px;
 }
-.button {
-  margin: 0% 35% 0% 0%;
+.infoot h2 {
+  color: green;
 }
+
 .cons {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 iframe {
   width: 100%;
   height: 93%;
- 
 }
 
-/* * {
-    box-sizing: border-box;
-  }
-  
+
+footer input {
+  background-color: #ffffff;
+  border: solid blue 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /* Position the image container (needed to position the left and right arrows) */
 .mySlides {
   width: 100%;
@@ -331,7 +149,6 @@ iframe {
   margin-top: -50px;
   color: white;
   font-weight: bold;
-  font-size: 20px;
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
@@ -352,7 +169,7 @@ iframe {
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
-  font-size: 12px;
+
   padding: 8px 12px;
   /* position: absolute; */
   top: 0;
@@ -393,9 +210,10 @@ select,
 textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(0, 0, 0);
   border-radius: 4px;
   resize: vertical;
+  font-size: 3vh;
 }
 
 label {
@@ -406,8 +224,10 @@ label {
 input[type="submit"] {
   background-color: #4caf50;
   color: white;
+  font-size: 3vh;
   padding: 12px 20px;
   border: none;
+  
   border-radius: 4px;
   cursor: pointer;
   float: right;
@@ -462,7 +282,7 @@ form {
 
 .fa {
   padding: 10px;
-  font-size: 30px;
+
   width: 30px;
   text-align: center;
   text-decoration: none;
@@ -610,7 +430,7 @@ form {
   color: white;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+
 }
 
 .topnav a.icon {

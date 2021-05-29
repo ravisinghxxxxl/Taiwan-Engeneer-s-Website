@@ -1,0 +1,11 @@
+@media (min-width: 0px) and (max-width: 800px) {
+  .navBar {
+    display: none;
+  }
+}
+
+@media (min-width:800px) {
+    .topnav {
+      display: none;
+    }
+  }
