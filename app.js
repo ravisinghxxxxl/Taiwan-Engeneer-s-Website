@@ -1,33 +1,3 @@
-var slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  // var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  // captionText.innerHTML = dots[slideIndex-1].alt;
-}
 
 
 
@@ -40,3 +10,30 @@ function myFunction() {
     x.style.display = "block";
   }
 }
+
+
+// LANGUAGE BUTTON 
+
+// $('[lang]').hide(); // hide all lang attributes on start.
+// $('[lang="ko"]').show(); // show just Korean text (you can change it)
+// $('#lang-switch').change(function () { // put onchange event when user select option from select
+//     var lang = $(this).val(); // decide which language to display using switch case. The rest is obvious (i think)
+//     switch (lang) {
+//         case 'en':
+//             $('[lang]').hide();
+//             $('[lang="en"]').show();
+//         break;
+//         case 'ko':
+//             $('[lang]').hide();
+//             $('[lang="ko"]').show();
+//         break;
+//         default:
+//             $('[lang]').hide();
+//             $('[lang="ko"]').show();
+//         }
+// });
+
+
+
+// SLIDESHOW SCRIPT
+

@@ -1,0 +1,60 @@
+/* Container holding the image and the text */
+.containerz {
+    position: relative;
+    text-align: center;
+    color: white;
+    /* margin: 0px 0px 0px 0px; */
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .centered h1 {
+    font-family: 'Odibee Sans', cursive;
+    color: rgb(0, 0, 0);
+    
+  }
+
+  .img-text {
+    height: 16em;
+      opacity: 0.7;
+      font-family: 'Odibee Sans', cursive;
+  }
+
+
+  .containerz img {
+height: 800px;
+  }
