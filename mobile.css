@@ -2,10 +2,21 @@
   .navBar {
     display: none;
   }
-}
 
-@media (min-width:800px) {
+  .navbar img {
+    width: 0%;
+    height: 0%;
+  }
+
+  .in-inmid {
+    flex-wrap: wrap;
+  }
+  .infoot {
+    width: 100%;
+  }
+}
+  @media (min-width:800px) {
     .topnav {
       display: none;
     }
-  } 
+  }
